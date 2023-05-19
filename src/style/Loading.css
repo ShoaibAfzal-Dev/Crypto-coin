@@ -1,0 +1,15 @@
+.loading-1{
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.loading-1{
+        animation: color-change 0.3s infinite;
+}    
+      @keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+      }

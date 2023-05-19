@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Ubuntu&display=swap');
+
+
+.line-color{
+  width: 50VW;
+  display: flex;
+  justify-content: space-between;
+  color: #00e84676;
+  font-size: 40px;
+  padding: 10px 3px;
+  background:linear-gradient(to right,rgba(255, 0, 0, 0.539) 50%, rgb(241, 241, 241) 50%) top;
+  background-repeat: no-repeat;
+  background-size:100% 12px;
+}
+.coin-detail-s{
+  margin: auto auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-btns{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.539);
+  border: 0px solid rgba(255, 0, 0, 0.539);
+ transition: transform .2s;
+}
+.coin-btns:hover{
+    transform: scale(1.4);
+}
+.days-details{
+  margin: 5px auto;
+  font-size: large;
+  color: rgba(215, 21, 21, 0.539);;
+}
+.coin-image{
+  margin: 20px;
+}
+.inc-dec{
+  font-size: large;
+  color: rgba(199, 42, 42, 0.737);
+}
+.rank-details{
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  font-size: larger;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(30, 255, 0);
+}
+.coin-com{
+  font-size: x-large;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Ubuntu', sans-serif;
+}
+.co-in{
+  display: flex;
+  width: 100%;
+}
+.co-in1{
+  width: 50%;
+}
+.co-in2{
+  width: 50%;
+  
+}

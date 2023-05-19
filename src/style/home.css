@@ -1,0 +1,18 @@
+.image-bit{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 92vh;
+    transform: rotateY(45deg);
+	animation: rotateAnimation 1s linear infinite;
+}
+.bitcoin{
+    
+  
+      display: flex;
+      justify-content: center;
+      background-color: black;
+}
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}

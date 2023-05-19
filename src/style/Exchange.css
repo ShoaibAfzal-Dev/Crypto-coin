@@ -1,0 +1,57 @@
+.main-div{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.show-data{
+    transition: transform .2s;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    background-color: white;
+}
+a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+   cursor: pointer;
+}
+.con{
+    color: rgb(255, 0, 119);
+}
+.exchanges-card:hover{
+    transform: scale(1.1);
+}
+.exchanges-card{
+
+
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+img{
+    width: 6rem;
+}
+.Name{
+    font-size: large;
+    font-weight: bolder;
+}

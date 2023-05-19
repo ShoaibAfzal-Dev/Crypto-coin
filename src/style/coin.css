@@ -1,0 +1,27 @@
+.coin-mainn{
+    display: flex;
+    justify-content: center;
+}
+.coin-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    
+}
+.details-coin{
+    margin: 20px;
+    width: 12rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.1);
+    transition: transform .2s;
+}
+.details-coin:hover{
+    transform: scale(1.1);
+}
